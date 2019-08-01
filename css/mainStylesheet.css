@@ -1,0 +1,81 @@
+
+/* font-family: 'Saira Stencil One', cursive;
+font-family: 'Crimson Pro', serif;
+font-family: 'Playfair Display', serif; */
+
+
+
+body {
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outerRing {
+    width: 28em;
+    height: 28em;
+    border: 1px solid white;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerRing {
+    width: 25em;
+    height: 25em;
+    border: 1px solid white;
+    border-radius: 50%;
+   
+   
+  
+}
+
+h1 {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 15em;
+    font-family: 'Saira Stencil One', cursive;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1em;
+    font-family: 'Saira Stencil One', cursive;
+    text-align: center;
+    font-weight: 100;
+    padding: 0;
+    margin-top: -3em;
+}
+
+@media only screen and (max-width: 1200px) {
+    body {
+      font-size: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    body {
+      font-size: 16px;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    body {
+      font-size: 12px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    body {
+      font-size: 8px;
+    }
+  }
